@@ -1,9 +1,5 @@
 from ObjectDetector import Detector
-import io
-import cv2
-
 from flask import Flask, render_template, request
-
 from PIL import Image, ExifTags
 from flask import send_file
 
